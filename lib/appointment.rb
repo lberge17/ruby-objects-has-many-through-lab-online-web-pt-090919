@@ -2,7 +2,7 @@ class Appointment
   attr_accessor
   @@all = []
   
-  def initialize
+  def initialize(date, patient, doctor)
     @@all << self
   end
   
